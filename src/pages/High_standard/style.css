@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap
+);
+
+*{
+    font-family: 'Poppins, sans-serif';
+}
+
+.nav-link{
+    color: white;
+}
+
+#nav-link{
+color: white;
+}
+
+#borda_nav{
+    border-radius: solid 10px;
+}
+
+.borda_bot{
+border: white;
+}
+
+.bg_bot{
+    color: blue;
+}
+
+
+#pad_tit{
+    padding-top: 5%;
+    text-align: center;
+   margin-top: 1%;
+   
+}
+
+#-marg_imag{
+   margin-top: 5%;
+   border-radius: 1%;
+}
+
+.cor_nav{
+    background-color: #00ff29;
+    color: white !important;
+    
+}
+
+.m_top{
+    margin-top:5px;
+}
+
+.card-item{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.h_center{
+    display: flex;
+    justify-content: center;
+}
+
+#formas_pagamento{
+    font-size: medium;
+    color: blue;
+}
+
+#copy {
+    font-size: small;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#center_contato{
+    text-align: center;
+}
+
+#cor_preco{
+    color: red;
+    font-size: larger;
+}
+
+#cor_precoG{
+    color: red;
+    font-size: xx-large;
+}
+
+.card-footer{
+    text-align: center;
+}
+
+
+#cor_preco_prom{
+    color: red;
+    font-size: x-large;
+}
+
+.cor_tit{
+color: blue;
+}
+
+.borda_card{
+    border: solid 1px black;
+    ;
+}
+
+#borda_car{
+    border-radius: 10px;
+    border: solid 10px darkgoldenrod;
+}
+
+#carr_bord{
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+.imag_bor{
+    border-radius: 10px;
+}
+
+#log_nav{
+    border-radius: 10px;
+    border: solid 5px darkgoldenrod;
+}
+
+
+.config_log{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#confg_p{
+    margin: 40px;
+}
+
+#tam_p{
+    font-size:larger;
+}
+
+
+
+
+
+
+   
+
+   
+
+
+
+
