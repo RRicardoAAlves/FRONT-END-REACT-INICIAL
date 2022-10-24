@@ -19,7 +19,7 @@ export default function High_standard() {
                         </header>
                         <section className="card h-100">
                             
-                                <h4 className="card-title h_center"><strong>FERNANDO DE NORONHA - PE</strong></h1>
+                                <h4 className="card-title h_center"><strong>FERNANDO DE NORONHA - PE</strong></h4>
                                 <section id="confg_p">
                                     <p id="tam_p">A região é protegida por reservas ecológicas e funciona como uma espécie de
                                         santuário marinho, onde milhares de espécies animais e vegetais prosperam e encontram

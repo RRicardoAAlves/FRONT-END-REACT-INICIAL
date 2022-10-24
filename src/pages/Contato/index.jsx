@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import {Link} from 'react-router-dom';
 
 import Imagem1 from "../../assets/img/CONTATOWHATSAPP.png"
 import Imagem2 from "../../assets/img/logoemail.png"
@@ -6,11 +8,24 @@ import Imagem2 from "../../assets/img/logoemail.png"
 import "./style.css";
 
 export default function Contato() {
+
+const [cliente, setCliente] = useState([]);
+
+const listarCliente = async () => {
+    try{
+      await axios.get("http://http://localhost:8080/api/clientes").then((response) => {setCliente(response.data)})
+    } catch (erro){
+        alert(erro.mensagem);
+    }
+};
+
+useEffect(() => {listarCliente();}, [])
+
     return (
         <main>
-            <h2 class="about-title h_center cor_tit"><strong>CONTATO ALTO PADRÃO TURISMO</strong></h2>
+            <h2 className="about-title h_center cor_tit"><strong>CONTATO ALTO PADRÃO TURISMO</strong></h2>
                 
-                        <section class="container">
+                        <section className="container">
                             <table width="100%" cellpadding="20" id="center_contato">
                                 <tr>
                                     <td width="50%" aling="center">
@@ -25,7 +40,14 @@ export default function Contato() {
                             </table>
                         </section>
 
-                        <div className="container p-5" style="width: 600px;">
+                        <br />
+    <br/>
+
+    <h2 class="about-title h_center"><strong>Deixe sua mensagem!!! Em breve retornaremos o contato:</strong></h2>
+    <br />
+
+
+                        <div className="container p-5" width = "600px">
                             <form>
                                 <fieldset className="row mb-3">
                                     <legend className="col-form-label col-sm-10 pt-0">Tipo de pessoa:</legend>
@@ -113,7 +135,7 @@ export default function Contato() {
                                     </div>
                                 </div>
                                 <div className="row mb-3">
-                                    <div className="input-group" style="height: 20vh;">
+                                    <div className="input-group" height="20vh">
                                         <textarea className="form-control" aria-label="Mensagem" placeholder="Digite sua mensagem aqui..."></textarea>
                                     </div>
                                 </div>
@@ -121,5 +143,6 @@ export default function Contato() {
                             </form>
                         </div>
                     </main>
+                    
                     );
 }

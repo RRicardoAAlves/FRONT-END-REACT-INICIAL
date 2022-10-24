@@ -21,7 +21,7 @@ export default function Destinos() {
       <h2 className="col-md-12 h_center cor_tit"><strong>DESTINOS PARADISÍACOS</strong></h2>
       <h4>* Pacotes fixos de 5 dias *</h4>
 
-      /* inicio cards /*
+      
       <div className="row row-cols-1 row-cols-md-3 g-4">
         <div className="col">
           <div className="card h-100 borda_card">

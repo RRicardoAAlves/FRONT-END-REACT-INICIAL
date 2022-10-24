@@ -18,12 +18,12 @@ export default function
         <h2 className="card-text container" id="center_contato">Seja bem vindo a maior, melhor e única agência de turismo de
           alto padrão
           com expertise em praias paradisíacas do nosso espetacular litoral brasileiro. Confira nossos
-          <strong>DESTINOS</strong> e
-          <strong>PROMOÇÕES</strong>.
+          <strong> DESTINOS</strong> e
+          <strong> PROMOÇÕES</strong>.
         </h2>
       </article>
-
-
+      <br />
+      <br />
 
       <article id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
         <section className="carousel-inner">
@@ -48,26 +48,36 @@ export default function
         <span className="visually-hidden">Next</span>
       </section>
 
-      <article class="container h_center">
-    <section class="row row-cols-1 row-cols-md-3 g-4 h_center">
-      <section class="col">
-        <div class="card h-100" id="carr_bord">
-          <img src={Imagem4} class="card-img-top imag_bor" alt="imagem praia com barquinhos" />
-        </div>
-      </section>
-      <section class="col">
-        <div class="card h-100" id="carr_bord">
-          <img src={Imagem5} class="card-img-top imag_bor" alt="imagem praia azul turquesa " />
-        </div>
-      </section>
-      <section class="col">
-        <div class="card h-100 imag_bor" id="carr_bord">
-          <img src={Imagem6} class="card-img-top imag_bor" alt="imagem praia com coqueiros e rede" />
-        </div>
-      </section>
+    <br />
+    <br />
+    <h2 class="card-text container" id="center_contato">Viajar com a ALTO PADRÃO TURISMO é ter a melhor experiêcia da
+      sua vida, com os melhores preços e o mais alto padrão de qualidade !!!</h2>
+    <br />
+    <h2 class="card-text container" id="center_contato"><strong>VAMOS NESSA?</strong></h2>
 
-    </section>
-  </article>
+    <br/>
+    <br/>
+
+      <article class="container h_center">
+        <section class="row row-cols-1 row-cols-md-3 g-4 h_center">
+          <section class="col">
+            <div class="card h-100" id="carr_bord">
+              <img src={Imagem4} class="card-img-top imag_bor" alt="imagem praia com barquinhos" />
+            </div>
+          </section>
+          <section class="col">
+            <div class="card h-100" id="carr_bord">
+              <img src={Imagem5} class="card-img-top imag_bor" alt="imagem praia azul turquesa " />
+            </div>
+          </section>
+          <section class="col">
+            <div class="card h-100 imag_bor" id="carr_bord">
+              <img src={Imagem6} class="card-img-top imag_bor" alt="imagem praia com coqueiros e rede" />
+            </div>
+          </section>
+
+        </section>
+      </article>
 
 
 

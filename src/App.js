@@ -1,17 +1,15 @@
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap";
 
-import Home from "./pages/Home";
-import Contato from "./pages/Contato";
+import Rotas from "./Rotas";
 
 
 function App() {
   return (
     <div className="App">
      
-    <Contato />
-
-
+    <Rotas />
+    
      </div>
    
   );
